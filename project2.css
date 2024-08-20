@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+background-color: white;
+color: black;
+margin-bottom: 15px;
+position: fixed;
+width: 100%;
+display:flex;
+}
+.nav #BR{
+    color: black;
+    float: left;
+    display: block;
+    margin-left: 3px;
+    word-spacing: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    outline: 0;
+    width: auto;
+    padding: 15px 20px;
+}
+.div-links {
+    float: right;
+    display: block;
+    align-items: right;
+    margin-right: 15px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    padding: 10px;
+    padding-right: 3px;
+}
+#a-links {
+    align-items: right;
+    float: right;
+    padding: 15px;
+    display: block;
+    margin-right: 45px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+/* .nav {
+    background-color: white;
+    color: black;
+    margin-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    display:flex;
+}
+
+
+
+#BR {
+    color: black;
+    float: left;
+    display: block;
+    margin-left: 3px;
+    word-spacing: 10px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    outline: 0;
+    width: auto;
+    padding: 15px 20px;
+}
+
+.div-links {
+    float: right;
+    display: block;
+    align-items: right;
+    margin-right: 15px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    padding: 10px;
+    padding-right: 3px;
+}
+
+#a-links {
+    align-items: right;
+    float: right;
+    padding: 15px;
+    display: block;
+    margin-right: 45px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    padding-right: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+#a-links:link,
+#a-links:visited {
+    background-color: white;
+    color: black;
+}
+
+#a-links:hover,
+#a-links:active {
+    background-color: darkgray;
+    color: white;
+}
+
+.BR:link,
+.BR:visited {
+    background-color: white;
+    color: black;
+}
+
+.BR:hover,
+.BR:active {
+    background-color: darkgray;
+    color: white;
+} */
+/* end nav */
+/* start photo */
+.start img{
+position: relative;
+}
+.start span{
+position: absolute;
+top: 460px;
+left: 530px;
+color: white;
+font-size: 36px;
+line-height: 54px;
+
+}
+.start span b{
+background-color: rgba(0, 0, 0, 0.7);
+font-size: 36px;
+line-height: 54px;
+padding: 15px;
+}
+.start{
+
+}

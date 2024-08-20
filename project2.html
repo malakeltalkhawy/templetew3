@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: Verdana, sans-serif;
+        box-sizing: border-box;
+    }
+
+    #nav {
+        background-color: white;
+        color: black;
+        margin-bottom: 15px;
+        position: fixed;
+        width: 100%;
+    }
+
+    #nav-br {
+        display: block;
+        margin-left: 3px;
+    }
+
+    #BR {
+        color: black;
+        float: left;
+        display: block;
+        margin-left: 3px;
+        word-spacing: 10px;
+        text-decoration: none;
+        letter-spacing: 3px;
+        outline: 0;
+        width: auto;
+        padding: 15px 20px;
+    }
+
+    #div-links {
+        float: right;
+        display: block;
+        align-items: right;
+        margin-right: 15px;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+        padding: 10px;
+        padding-right: 3px;
+    }
+
+    #a-links {
+        align-items: right;
+        float: right;
+        padding: 15px;
+        display: block;
+        margin-right: 45px;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+        padding-right: 3px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #a-links:link,
+    #a-links:visited {
+        background-color: white;
+        color: black;
+    }
+
+    #a-links:hover,
+    #a-links:active {
+        background-color: darkgray;
+        color: white;
+    }
+
+    #BR:link,
+    #BR:visited {
+        background-color: white;
+        color: black;
+    }
+
+    #BR:hover,
+    #BR:active {
+        background-color: darkgray;
+        color: white;
+    }
+
+    #div-h1 {
+        /* background-image: url(architect.jpg);
+            color: white;
+            padding: 0px 100px;
+            background-position: center; */
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0px 100px;
+        background-image: url(architect.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    #span-p {
+        font-size: 39px;
+    }
+
+    #span-p b {
+        background-color: rgb(66, 64, 64);
+        font-size: 45px;
+        padding: 10px;
+        background-blend-mode: soft-light;
+    }
+
+    #large-div p {
+        padding-left: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    #p-proj h3 {
+        color: black;
+        float: left;
+        padding-left: 25px;
+        margin-left: 25px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    #top-div{
+        background-color: white;
+        content: "";
+        display: flex;
+        display: table;
+        clear :both;
+        justify-content: space-between;
+        /* flex-wrap: wrap; 
+        flex-direction: row; */
+
+    }
+
+    #sum-img {
+        /* background-color: white;
+            width:10%;
+            background-color: white;
+            width: 21.25em;
+            height: 50%;
+            background-image: url(summerhouse.jpg); 
+            background-size: cover;
+            background-attachment: fixed; 
+            background-position: center;  */
+        /* height: 70uv;
+            width: 21.25em;
+            display: flex;
+            align-items: center;
+            color: white;
+            padding: 0px 100px ;
+            background-image: url(summerhouse.jpg) ;
+            background-size: cover;
+            background-attachment: fixed; 
+            background-position: center; */
+        /* display: block;
+            float: left;
+            display: block;
+            align-items: left;
+            margin-right: 15px; */
+    }
+
+    #p-img1 {
+
+        float: left;
+        padding: 9px;
+        font-size: 1.2em;
+        font-weight: 15px;
+        margin: 10px;
+    }
+
+    #summer-img,
+    #brick-img,
+    #reno-img,
+    #barn-img {
+        width: 25%;
+        /* height: 44.44%; */
+        /* display:inline-block ; */
+        /* float: left; */
+        padding: 5px;
+        /* justify-content: space-between; */
+
+
+    }
+    #form{
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+        padding: 5px;
+    }
+    form button{
+        color: white;
+        background-color: black;
+        padding: 10px;
+        width: 15%;
+    }
+    #a-button:link,
+    #a-button:visited {
+        background-color: white;
+        color: black;
+    }
+
+    #a-button:hover,
+    #a-button:active {
+        background-color: darkgray;
+        color: white;
+    }
+    #footer{
+        display: block;
+        color: white;
+    }
+    #footer p{
+        color: white;
+        background-color: black;
+        width: 100%;
+        padding: 25px;
+        margin: 10px;
+        text-align: center;
+    }
+    #footer a {
+        color: white;
+    }
+</style>
+
+<body>
+    <div id="nav">
+        <div id="nav-br">
+            <a href="#home" id="BR"> <b>BR</b>
+                Architects
+            </a>
+            <div class="div-links">
+                <a href="" id="a-links" >Projects</a>
+                <a href="" id="a-links" >About</a>
+                <a href="" id="a-links" >Contact</a>
+            </div>
+        </div>
+    </div>
+    <header id="header" style="max-width:1500px;" id="home">
+        <div id="div-h1">
+            <pre>                                                                                     </pre>
+            <span id="span-p">
+                <b>BR</b> Architects</span>
+        </div>
+    </header>
+    <section id="project">
+        <div id="large-div">
+            <div id=" p-proj">
+                <h3>Projects</h3>
+                <hr>
+            </div>
+            <div id="top-div">
+                <div id="sum-img" >
+                    <p id="p-img1" style="color: white;"> Summer House</p>
+                    <div id="img1" > <img src="summerhouse.jpg" id="summer-img" width="100%"></div>
+                </div>
+                <div id="bri-img">
+                    <div id="img1">
+                        <img src="Brick House.jpg" id="brick-img" alt="hh" width="100%">
+                    </div>
+                </div>
+                <div id="ren-img">
+                    <div id="img1">
+                        <img src="Renovated.jpg" id="reno-img" width="100%">
+                    </div>
+                </div>
+                <div id="bar-img">
+                    <div id="img1">
+                        <img src="Barn House.jpg" id="barn-img" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div id="down-div">
+            </div>
+        </div>
+        
+    </section>
+    <div id="about">
+        <div id=" p-proj">
+            <h3>About</h3>
+            <hr>
+        </div>
+        <p id="p-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed 
+            do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+        <div id="contact">
+            <div id=" p-proj">
+                <h3>Contact</h3>
+                <hr>
+            </div>
+            <div id="form">
+                <p style="width: 100%; color: black;">Lets get in touch and talk about your next project.</p> <br>
+                <form action="">
+                    <input type="text" required placeholder="Name"> <br> <br>
+                    <input type="email" required placeholder="Email"><br> <br>
+                    <input type="text" required placeholder="Subject"><br> <br>
+                    <input type="text" required placeholder="Comment"><br> <br>
+                    <a href="submit" id="a-button"> <button> Send Message </button></a> <br> <br>
+                </form>
+            </div>
+        </div>
+        <div id="div-map"> 
+            <img src="map.jpg" width="100%"> 
+        </div>
+        <br> 
+        <div id="footer">
+            <p >Powered by </p>
+            <a href="https://www.w3schools.com/w3css/default.asp" title="w3.css" target="_blank" style="color: white;"> w3.css</a>
+        </div>
+</body>
+
+</html>
